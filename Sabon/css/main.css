@@ -1,0 +1,114 @@
+@import url(reset.css);
+@import url(default.css);
+@font-face{font-family:"Nanum Square";src:url("../font/NanumSquareR.ttf");}
+@font-face{font-family:"Poppins";src:url("../font/Poppins-Regular.ttf");}
+
+body{font-size: 14px;width: 1900px;margin: 0 auto;}
+
+/*header*/
+header{position: absolute;position: fixed;z-index: 6;
+    width: 100%;height: 96px;background: #fff;text-align: center;}
+#skipnavi{position: relative;}
+.logo{position: absolute;z-index: 200;height: 96px; line-height: 96px;
+    padding-left: 180px;}
+/*gnb*/
+.gnb{position: relative;width: 1400px; padding-left:330px;}
+.gnb_inner{position: absolute;top: 38px;display: flex;width: 1000px;font-size: 14px;color: #666;
+    letter-spacing: -0.5px;}
+.gnb_inner > li{padding-right: 30px;letter-spacing: .5px;} 
+
+/*utilmenu*/
+.util_menu{position: absolute;top: 38px; right: 100px;width: 320px;}
+.util_menu li{display: inline-flex;padding-right: 15px;}
+.before:before{content: "";display:inline-block;width: 1px;height: 9px;
+    background: #898989;position: absolute;top: 50%;margin-top: -4.5px;
+    left: 125px;}
+.before:after{content: "";display:inline-block;width: 1px;height: 9px;
+    background: #898989;position: absolute;top: 50%;margin-top: -4.5px;
+    left:200px;}
+.after:after{content: "";display:inline-block;width: 1px;height: 9px;
+    background: #898989;position: absolute;top: 50%;margin-top: -4.5px;
+    left: 268px;}
+/*depth2*/
+.depth2{display: none;position: absolute;top:0; left: -50%;
+    width: 100%;height: 0;margin: 0 auto;}
+
+/*main_visual*/
+.main_visual{position: relative;width: 100%;height: 950px;overflow:hidden;padding-top: 96px;}
+
+/*pager*/
+.pager{width: 100%;text-align: center;}
+.pager li a{position: absolute;bottom: 45px;
+    text-align: center;opacity: 0.4;display: inline-block;width: 10px;height: 10px;background: #fff;border: 1px solid #fff;
+    border-radius: 50%;text-indent: -9999px;}
+.pg1 a{left: 49%;}
+.pg2 a{left: 50%;}
+.pg3 a{left: 51%;}
+/*content*/
+.main_content{width:100%;height: 864px;padding: 120px 30px;text-align: center;}
+.content{width: 1260px;height: 54px;margin: 0 auto;}
+.content p{font-size: 34px;font-weight: 700;color: #4a4a4a;
+    margin-bottom: 40px;letter-spacing: 0;}
+.content ul{display: flex;justify-content: center;margin:  0 auto;margin-bottom: 30px;}
+.content li{margin: 10px;font-size: 16px;color:#848484;}
+.content li a{margin-bottom: 20px;}
+
+/*shop*/
+.shop{display: inline-block;width: 70%;height: 453px;margin-top: 100px;border-bottom: 1px solid #666;}
+.shop >ul{display: inline-block;width: 420px; height: 450px;color: #666;font-size: 14px;letter-spacing: -0.5px;text-align: center;}
+.shop >div{width: 420px;height: 180px;}
+.img a img{display:block;width: 250px;height: 270px;margin: 0 auto;}
+.name a{display: inline-block;font-size: 23px;font-weight: 700;color: #000;text-align: center;vertical-align: top;}
+
+/*main_banner*/
+.main_banner> ul{width: 100%; height: 235px;text-align: center;
+    clear: both;}
+.main_banner ul> li >a >img{float: left;width: 950px;height: 235px;}
+
+/*video*/
+.video_wrap{position: relative;width: 1400px;height:700px;
+    padding: 120px 30px;box-sizing: border-box;margin: 0 auto;}
+.video_wrap >div{float: left;}
+.video{width: 816px;height: 459px;margin:}
+.exp{float: left;width: 470px;height: 355px;padding-left: 60px;
+    box-sizing: border-box;margin-top: 6.5%;}
+.big_txt{font-size: 50px; color: #4a4a4a;text-transform: uppercase;font-weight: 700;letter-spacing: -4px;
+    line-height: 1.6;}
+.big_txt >span{font-size: 0.65em;color: inherit;}
+.small_txt{font-size:18px;color: #4a4a4a;padding:25px 0 30px;
+    letter-spacing: -4px;line-height: 1.6;}
+
+/*sns*/
+.sns{width: 1400px;padding: 50px 30px;padding-left: 300px; text-align: center;color: #4a4a4a;}
+.sns h2{font-size: 34px;font-weight: 700;margin-bottom: 10px;
+text-align: center;}
+.sns p{font-size: 17px;margin-bottom: 40px;}
+.sns section{width: 100%;height: 210px;margin: 0 auto;}
+.sns section li a img{float: left;width: 200px;
+    height: 200px;margin: 5px;}
+
+/*bottom_banner*/
+.bottom_banner a{width: 100%; height: 312px;}
+
+/*footer*/
+footer{background: #322b27;width: 100%;height: 375px;}
+.footer a{color: rgba(255,255,255,0.5)}
+.footer{width: 1200px;height: 375px;padding: 60px 0; margin: 0 auto;}
+.footer >p,.footer >ul{float: left;margin: 20px;}
+.footer ul:first-child{width:340px;height: 172px;}
+.tit{color: #fff;font-size: 17px;letter-spacing: 0.5px;margin-bottom: 15px;}
+.address{clear: both;width: 1200px;height: 83px;
+    border-top: 1px solid #5b5552;padding: 20px 0;}
+.address >p{width: 1200px;height: 20px;font-size: 13px;}
+
+
+
+
+
+
+
+
+
+
+
+

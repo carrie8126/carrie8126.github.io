@@ -1,0 +1,30 @@
+@import url(reset.css);
+@font-face{font-family:"NanumGothic";src:url("../font/NanumGothic-Regular.ttf");}
+@font-face{font-family:"NanumGothic";src:url("../font/NanumGothic-ExtraBold.ttf");}
+
+body{width: 800px;height: 564px;border: 5px solid #000;box-sizing: border-box;margin: 0 auto;font-size: 14px;line-height: 1.5;}
+h1{width:166px;height: 40px;text-indent: 300px;margin:30px 0;}
+.newsletter p{width:420px;height: 60px;margin: 0 auto;font-size: 12px;line-height: 20px;text-align: center;padding-top: 20px;box-sizing: border-box;}
+.box{width: 780px;height: 414px;padding: 0 30px 30px 30px;}
+legend{color:red;font-size: 11px;}
+fieldset{position: relative;width: 720px;height: 263px;}
+.field1,.field2,.field3,.field4,.field5,.field6{display: block;width:360px;height: 46px;margin-bottom: 10px;}
+label{display: block;margin-top: 3px;}
+span{color:red;padding: 10px 5px;}
+select{width:326px;height:36px;}
+select:hover ~ option{display:block;}
+option{display:none;background: #fff;}
+
+input[type="radio"]{margin-right:5px;}
+input[type="Text"]{width:324px;height: 34px;}
+.field1{margin-top: 3px;}
+.field2{position: absolute;top: 20px;right: 0;}
+.field3{padding-top: 10px;}
+.field4{position: absolute;top: 85px;right: 0;}
+.field5{padding-top:20px;}
+.field6{position: absolute;top:140px;right: 0;padding-top:23px;height:34px;}
+
+.agree{width:720px;height: 30px;font-size: 10px;float: left;margin-top: -20px;font-weight: 500;}
+input[type="checkbox"]{width:10px;height: 10px;margin-right: 5px;}
+.agree p{text-align: justify;font-size: 10px;padding: 10px 0 20px 0;}
+input[type="submit"]{display: block;width:240px;height: 36px;background: #000; color: #fff;margin: 0 auto;border:1px solid #000;}

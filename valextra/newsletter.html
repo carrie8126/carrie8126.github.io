@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>newsletter</title>
+     <link rel="stylesheet" href="css/newsletter.css"/> 
+</head>
+<body>
+   <div class="newsletter">
+        <h1><img src="images/logo.gif" alt="valextra"></h1>
+        <p>SUBSCRIBE TO OUR NEWSLETTERS FOR ALL OF THE LATEST NEWS INSIDE VALEXTRA</p>
+   </div>
+   <div class="box">
+       <form action="post">
+          <fieldset>
+           <legend>* INDICATES REQUIRED FIELDS</legend>
+           <div class="field1">
+               <label for="gender">GENDER</label>
+               <input type="radio" name="gender"/>MALE
+               <input type="radio" name="gender"/>FEMALE
+           </div>
+           <div class="field2">
+               <label for="month">DATE OF BIRTH</label>
+               <input type="date" required>
+           </div>
+           <div class="field3">
+               <label for="first">FIRST NAME<span>*</span></label>
+               <input type="text" required>
+           </div>
+           <div class="field4">
+               <label for="last">LAST NAME<span>*</span></label>
+               <input type="text" required>
+           </div>
+           <div class="field5">
+               <label for="email">EMAIL<span>*</span></label>
+               <input type="text" required>
+           </div>
+           <div class="field6">
+              <label for="country">LOCATION<span>*</span></label>
+               <select class="location">LOCATION</select>
+                   <option value></option>
+                   <option value="AU">Australia</option>
+                   <option value="CA">Canada</option>
+                   <option value="FR">France</option>
+                   <option value="GE">German</option>
+                   <option value="IT">Italy</option>
+                   <option value="Ko">Korea</option>
+                   <option value="MY">Malaysia</option>
+                   <option value="NZ">New Zealand</option>
+                   <option value="US">Unite States</option>
+                   <option value="UK">United Kingdom</option>
+           </div>
+           </fieldset>
+           <div class="agree">
+               <input type="checkbox">AFTER HAVING READ THE PRIVACY POLICY, I AGREE TO HAVE MY DATA PROCESSED BY VALEXTRA S.P.A. TO RECORD AND ANALYZE MY PREFERENCES (PROFILING)
+               <p>BY CLICKING ON "SIGN UP" YOU DECLARE THAT YOU HAVE READ AND UNDERSTOOD OUR PRIVACY POLICY AND AGREE TO HAVE YOUR PERSONAL DATA PROCESSED TO REGISTER FOR THE PERSONALIZED VALEXTRA S.P.A. NEWSLETTER</p>
+               <input type="submit" class="submit" value="SIGN UP"/>
+           </div>
+       </form>
+   </div>
+</body>
+</html>

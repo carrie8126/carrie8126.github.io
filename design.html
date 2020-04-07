@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>project</title>
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <style>
+    *{margin: 0;padding: 0;}
+    body{background: #FCEEB5;}
+        h1{color: #999;text-align: center;margin-top: 50px;}
+    li{list-style: none;height: 500px;
+    margin: 0 auto;line-height: 500px;margin-top: 50px;}
+    .visual li img{margin: 0 auto;}
+    .slick-arrow{z-index: 10; position: absolute;top: 50%;
+        transform: translateY(-50%);width: 60px;height: 60px;border-radius: 100%;background: #fff;
+        border:1px solid #ccc;font-size: 0;color:transparent;}
+    .slick-prev{left: 10px;}
+    .slick-arrow:before{font-family: xeicon;font-size: 30px;
+    color: #000;}
+    .slick-prev:before{content:"\e93b";}
+    .slick-next{right: 10px;}
+    .slick-next:before{content: "\e93e";}
+    </style>
+    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(function(){
+        $('.visual').slick();
+            });
+    </script>
+</head>
+<body>
+   <h1>디자인</h1>
+    <ul class="visual">
+        <li><img src="images/emoticon.jpg" alt=""></li>
+        <li><img src="images/event%20banner.png" alt=""></li>
+        <li><img src="images/paris.jpg" alt=""></li>
+</ul>
+</body>
+</html>
